@@ -1,0 +1,13 @@
+[MASTER]
+load-plugins=pylint_django
+django-settings-module=config.settings
+ignore-paths=.*/migrations/.*
+
+[FORMAT]
+max-line-length=88
+
+[DESIGN]
+max-parents=10
+
+[MESSAGES CONTROL]
+disable=missing-module-docstring,missing-class-docstring,missing-function-docstring,too-few-public-methods
